@@ -17,11 +17,11 @@ This project automates the creation of an Amazon EKS cluster, deployment of an a
    ```bash
    aws configure
 
-2. git clone https://github.com/your-repository/eks-deployment.git
-   cd eks-deployment
+2. git clone https://github.com/ankursrivastva/terraform_eks_sample-app.git
+   cd terraform_eks_sample-app
 
-3. chmod +x deploy.sh
-   ./deploy.sh
+3. chmod +x run-script.sh
+   ./run-script.sh
 
-4. Wait for the output of deploy.sh which will contain the service API endpoint
+4. Wait for the output of run-script.sh which will contain the service API endpoint
 
