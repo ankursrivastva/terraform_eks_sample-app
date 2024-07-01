@@ -18,10 +18,11 @@ This project automates the creation of an Amazon EKS cluster, deployment of an a
    aws configure
 
 2. git clone https://github.com/ankursrivastva/terraform_eks_sample-app.git
-   cd terraform_eks_sample-app
+   
+3. cd terraform_eks_sample-app
 
-3. chmod +x run-script.sh
+4. chmod +x run-script.sh
    ./run-script.sh
 
-4. Wait for the output of run-script.sh which will contain the service API endpoint
+5. Wait for the output of run-script.sh which will contain the service API endpoint
 
