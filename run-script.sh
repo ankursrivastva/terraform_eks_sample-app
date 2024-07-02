@@ -1,12 +1,9 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Initialize Terraform
 terraform init
 
-# Apply the Terraform configuration
 terraform apply -auto-approve
 
 # Get the EKS cluster name and region from Terraform outputs
